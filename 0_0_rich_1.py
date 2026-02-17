@@ -2,6 +2,10 @@ from tools import clear_view, jarak
 clear_view()
 jarak(4)
 
+# link materi :
+# https://gemini.google.com/app/4c9a7e0ce71603b1?utm_source=app_launcher&utm_medium=owned&utm_campaign=base_all
+
+
 # from rich import print
 # from rich.console import Console
 # from rich.panel import Panel
