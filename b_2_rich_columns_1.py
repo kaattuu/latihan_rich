@@ -1,4 +1,4 @@
-from tools import clear_view, jarak
+from tools import clear_view, jarak, inspectt
 clear_view()
 jarak(4)
 
@@ -13,5 +13,9 @@ users = ["Budi Utama", "Siska Amanda", "Andi Wijaya", "Rina Nose", "Tono Jati"]
 user_renderables = [Panel(user, expand=False) for user in users]
 
 console.print(Columns(user_renderables))
+
+jarak(4)
+
+inspectt(user_renderables)
 
 jarak(4)
